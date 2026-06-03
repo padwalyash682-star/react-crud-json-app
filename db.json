@@ -1,0 +1,52 @@
+{
+  "students": [
+    {
+      "id": "121",
+      "name": "Yash",
+      "email": "padwalyash80662@gmail.com",
+      "age": "18",
+      "course": "MCA",
+      "password": "password123"
+    },
+    {
+      "id": "123",
+      "name": "Yash Padwal",
+      "email": "padwalyash802@gmail.com",
+      "age": "18",
+      "course": "MCA",
+      "password": "password123"
+    },
+    {
+      "id": "124",
+      "name": "Raj",
+      "email": "KING",
+      "age": "88",
+      "course": "YY",
+      "password": "password123"
+    },
+    {
+      "id": "125",
+      "name": "suresh",
+      "email": "padwalyash802@gmail.com",
+      "age": "18",
+      "course": "MCA",
+      "password": "password123"
+    },
+    {
+      "id": "126",
+      "name": "Amit",
+      "email": "amit@gmail.com",
+      "age": "23",
+      "course": "Java",
+      "password": "password123"
+    },
+    {
+      "id": "127",
+      "name": "Ganesh",
+      "email": "ganesh@gmail.com",
+      "age": "28",
+      "course": "Python",
+      "password": "password123"
+    }
+  ]
+}
