@@ -16,7 +16,7 @@ function App() {
 
   return (
 
-    <BrowserRouter>
+    <BrowserRouter basename='/react-crud-json-app/'>
       <Routes>
          <Route
          path="/" 
