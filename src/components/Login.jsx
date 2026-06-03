@@ -9,7 +9,7 @@ function Login() {
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.get(`http://localhost:3000/students?email=${email}&password=${password}`);
+            const response = await axios.get(`http://localhost:5000/students?email=${email}&password=${password}`);
             if (response.data.length > 0) {
                 alert("Login Successful");
                  localStorage.setItem("student", JSON.stringify(response.data[0]));

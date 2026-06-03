@@ -18,7 +18,7 @@ function UpdateStudent() {
     }, []);
 
     const loadStudent = async () => {
-        const response = await axios.get(`http://localhost:3000/students/${id}`);
+        const response = await axios.get(`http://localhost:5000/students/${id}`);
         setStudent(response.data);
     };
 

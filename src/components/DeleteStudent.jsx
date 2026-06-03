@@ -4,7 +4,7 @@ function DeleteStudent() {
     const { id } = useParams();
     const navigate = useNavigate();
     const deleteStudent = async () => {
-        await axios.delete(`http://localhost:3000/students/${id}`);
+        await axios.delete(`http://localhost:5000/students/${id}`);
         alert("Student Deleted");
         navigate("/view");
     };

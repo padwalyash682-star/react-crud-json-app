@@ -9,7 +9,7 @@ function ViewStudent() {
     }, []);
 
     const loadStudents = async () => {
-        const response = await axios.get("http://localhost:3000/students");
+        const response = await axios.get("http://localhost:5000/students");
         setStudents(response.data);
     };
     return (

@@ -2,7 +2,7 @@ import axios from "axios";
 import {useState} from "react";
 import { nanoid } from "nanoid";
 
-const API = "http://localhost:3000/students";
+const API = "http://localhost:5000/students";
 function AddStudent() { 
     const [student, setStudent] = useState({
         id: nanoid(),
